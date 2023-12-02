@@ -5,7 +5,7 @@ Roughly written venv-python alarm program for 20-80% battery rule. It simply rem
 Steps to reproduce
 1. Create venv folder. Put the python script and alarm wav-file in there.
 2. Create a bash script that changes directory and runs the py-file.
-3. Add modifications to your .bashrc-file.  
+3. Add modifications to your .bashrc-file and a new crontab entry.  
 
 Enjoy! LOL
 
@@ -17,4 +17,5 @@ ps aux --sort=-%mem | grep -i '[p]ython'
 user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
 
 Feel free to use, comment and play around with code!
+
 
