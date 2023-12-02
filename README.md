@@ -22,7 +22,7 @@ user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
 
 System requirements: Linux arch 6.6.3-arch1-1, python 3.11.6, running cronie.service
 
-==================================================
+============
 Feel free to use, comment and play around with code!
 
 P.S. I could't find any sort of such software. So, I wanted to create one on my own. It is a skill training soft written fast. Still it works! 
