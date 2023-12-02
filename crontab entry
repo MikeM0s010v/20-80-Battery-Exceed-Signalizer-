@@ -1,0 +1,5 @@
+crontab -e 
+
+@reboot cd /path/to/venv && source/bin/activate && sleep 30 && cd.sh
+
+# Note: cd.sh command may probably be substituted with python pythonFile.py command
