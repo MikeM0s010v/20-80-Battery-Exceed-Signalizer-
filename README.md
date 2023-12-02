@@ -9,7 +9,7 @@ Steps
 Enjoy! LOL
 
 
-The program will work if you leave the terminal open while logining out or shoting down. There is also some time lag in python power_pluggeg atribute. Thus Xterm command and/or further sleeptime adjustments can be added and/or detalized.
+The program will work if you leave the terminal open while logining out or shoting down. There is also some time lag in python power_pluggeg attribute. Thus Xterm command and/or further sleeptime adjustments can be added and/or detalized.
 
 CPU usage 
 ps aux --sort=-%mem | grep -i '[p]ython'
