@@ -10,7 +10,7 @@ def make_noice(sound_file):
 	play_obj = wave_obj.play()
 	play_obj.wait_done()
 	
-# creating conditional loop 
+# creating multiconditional loop 
 while True:
 	battery = psutil.sensors_battery()
 	percent = battery.percent
