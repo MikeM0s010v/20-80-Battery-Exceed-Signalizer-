@@ -1,4 +1,4 @@
-#20-80-Battery-Exceed-Signalizer-
+#20-80-Charge-Percentage-Battery-Exceed-Signalizer-
 Rough venv-python alarm for 20-80% battery rule. It simply reminds you to plug-unplug the power cable.  The programme starts as you login into your Linux user account..
 
 Steps
@@ -9,7 +9,7 @@ Steps
 Enjoy! LOL
 
 
-The program will work if you leave the terminal open while logining out or shoting down. Xterm command or sleep time adjustments can be added and detalized.
+The program will work if you leave the terminal open while logining out or shoting down. There is also some time lag in python power_pluggeg atribute. Thus Xterm command and/or further sleeptime adjustments can be added and/or detalized.
 
 CPU usage 
 ps aux --sort=-%mem | grep -i '[p]ython'
