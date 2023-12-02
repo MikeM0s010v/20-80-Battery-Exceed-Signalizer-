@@ -7,7 +7,7 @@ Steps to reproduce
 1. Create venv folder.
 2. Download wav-alarm-file that you like fron web.
 3. Create/copy a python file.
-4. Create/copy a bash script that will run the python file (optional, see explanation in crontab entry file).
+4. Create/copy a bash script that will run the python file.
 5. Make it executable.
 6. Put aforementioned files in your venv folder.
 7. Create a new 'at' entry.
