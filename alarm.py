@@ -7,9 +7,20 @@ wave_obj = sa.WaveObject.from_wave_file("alert.wav")
 while True:
 	battery = psutil.sensors_battery()
 	percent = battery.percent
-	# print(type(percent))
-	
-	if percent > 80 or percent < 20:
+	plugged = battery.power_plugged
+
+	if percent > 80: # or percent < 20
 		play_obj = wave_obj.play()
 		play_obj.wait_done()		
-	time.sleep(666)
+		# play_obj.wait_done()
+		time.sleep(180)
+		if plugged:
+			play_obj = wave_obj.play()
+			play_obj.wait_done()
+			time.sleep(180)
+		else:	
+	        	time.sleep(3600)
+	elif percent < 20:
+		play_obj = wave_obj.play()
+		play_obj.wait_done()
+		time.sleep(180)
