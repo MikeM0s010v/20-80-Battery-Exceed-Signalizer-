@@ -8,7 +8,8 @@ while True:
 	battery = psutil.sensors_battery()
 	percent = battery.percent
 	plugged = battery.power_plugged
-
+	# print(type(percent))
+	# time.sleep(600)
 	if percent > 80: # or percent < 20
 		play_obj = wave_obj.play()
 		play_obj.wait_done()		
@@ -24,3 +25,10 @@ while True:
 		play_obj = wave_obj.play()
 		play_obj.wait_done()
 		time.sleep(180)
+		if plugged:
+			time.sleep(1800)
+		else:
+			play_obj = wave_obj.play()
+			play_obj.wait_done()
+			time.sleep(180)
+
