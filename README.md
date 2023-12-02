@@ -1,5 +1,5 @@
 -20-80-Battery-Charge-Percentage-Exceed-Signalizer-
-TESTING PERIOD!
+Debugging!
 LINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUX
 Elegantly written venv-python alarm for 20-80% battery rule. It simply reminds you to plug-unplug the power cable to lengthten the battery life. The programme starts at boot as you login into your user account..
 
