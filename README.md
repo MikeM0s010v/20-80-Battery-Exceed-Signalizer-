@@ -6,6 +6,8 @@ Steps
 2. Create a bash script that changes directory and runs the py-file.
 3. Add modifications to your .bashrc-file.
 
+Now the program works fine when you leave the terminal open logining out or shooting down.  
+
 Enjoy! LOL
 
 CPU usage 
