@@ -10,7 +10,7 @@ Steps to reproduce
 Enjoy! LOL
 
 
-The program will work if you leave the terminal open while logining out or shoting down. There is also some time lag in python power_plugged attribute status updating. Thus Xterm command, code refactoring and further sleeptime adjustments may be made, added or detalized.
+There is some time lag in python power_plugged attribute status updating. Thus some code refactoring and further sleeptime adjustments may be made, added or detalized.
 
 CPU usage check:
 ps aux --sort=-%mem | grep -i '[p]ython'
