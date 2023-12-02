@@ -1,6 +1,6 @@
 nano .bashrc
 source /Path/To/venv/bin/activate
 
-crontab -e # 
+crontab -e 
 # make sure cron is running
 @reboot /path/to/cd.sh & >> /path/to/cd.log 2&1
