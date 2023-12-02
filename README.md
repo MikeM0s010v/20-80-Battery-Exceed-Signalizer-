@@ -10,7 +10,7 @@ Steps to reproduce
 Enjoy! LOL
 
 
-There is some time lag in python power_plugged attribute status updating. Thus some code refactoring and further sleeptime adjustments may be made, added or detalized.
+There is some time lag in python power_plugged attribute status updating. Thus, some code refactoring and further sleeptime adjustments may be made, added or detalized.
 
 CPU usage check:
 ps aux --sort=-%mem | grep -i '[p]ython'
