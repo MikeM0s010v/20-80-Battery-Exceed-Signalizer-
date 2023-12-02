@@ -1,4 +1,5 @@
 -20-80-Battery-Charge-Percentage-Exceed-Signalizer-
+
 Rough venv-python alarm for 20-80% battery rule. It simply reminds you to plug-unplug the power cable.  The programme starts as you login into your Linux user account..
 
 Steps
