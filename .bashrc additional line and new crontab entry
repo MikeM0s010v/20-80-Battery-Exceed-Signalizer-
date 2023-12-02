@@ -1,1 +1,5 @@
+nano .bashrc
 source /Path/To/venv/bin/activate
+
+crontab -e
+@reboot /path/to/cd.sh & >> /path/to/cd.log 2&1
