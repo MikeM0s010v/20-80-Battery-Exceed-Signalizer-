@@ -4,11 +4,12 @@ Rough venv-python alarm for 20-80% battery rule. It simply reminds you to plug-u
 Steps
 1. Create venv folder. Put the python script and alarm wav-file in there.
 2. Create a bash script that changes directory and runs the py-file.
-3. Add modifications to your .bashrc-file.
-
-Now the program works fine when you leave the terminal open logining out or shooting down.  
+3. Add modifications to your .bashrc-file.  
 
 Enjoy! LOL
+
+
+The program will work if you leave the terminal open while logining out or shoting down.
 
 CPU usage 
 ps aux --sort=-%mem | grep -i '[p]ython'
