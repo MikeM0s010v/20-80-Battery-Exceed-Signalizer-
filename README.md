@@ -1,6 +1,6 @@
 -20-80-Battery-Charge-Percentage-Exceed-Signalizer-
-LINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUX
-Roughly written venv-python alarm program for 20-80% battery rule. It simply reminds you to plug-unplug the power cable to lengthten the battery life.  The programme starts as you login into your Linux user account..
+LINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUX
+Elegantly written venv-python alarm for 20-80% battery rule. It simply reminds you to plug-unplug the power cable to lengthten the battery life.  The programme starts as you login into your Linux user account..
 
 Steps to reproduce
 1. Create venv folder. Put the python script and alarm wav-file in there.
@@ -18,4 +18,5 @@ user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
 
 Feel free to use, comment and play around with code!
 
+P.S. I could't find any sort of such software. So, I wanted to created one on my own. It is a skill trainig soft written fast. Still it works! 
 
