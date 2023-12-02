@@ -12,7 +12,7 @@ Enjoy! LOL
 
 The program will work if you leave the terminal open while logining out or shoting down. There is also some time lag in python power_plugged attribute staus refreshing. Thus Xterm command and/or further sleeptime adjustments may be added or detalized.
 
-CPU usage 
+CPU usage check:
 ps aux --sort=-%mem | grep -i '[p]ython'
 user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
 
