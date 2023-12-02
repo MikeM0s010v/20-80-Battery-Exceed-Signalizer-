@@ -7,3 +7,8 @@ Steps
 3. Add modifications to your .bashrc-file.
 
 Enjoy! LOL
+
+CPU usage 
+ps aux --sort=-%mem | grep -i '[p]ython'
+user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
+
