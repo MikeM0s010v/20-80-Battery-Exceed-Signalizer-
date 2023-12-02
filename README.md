@@ -9,7 +9,7 @@ Steps
 Enjoy! LOL
 
 
-The program will work if you leave the terminal open while logining out or shoting down.
+The program will work if you leave the terminal open while logining out or shoting down. Xterm command or sleep time adjustments can be added and detalized.
 
 CPU usage 
 ps aux --sort=-%mem | grep -i '[p]ython'
