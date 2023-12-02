@@ -1,5 +1,5 @@
 #!/bin/bash
-# Do not forget to make script executable with chmod 755 cd.sh
+# Do not forget to make this script executable with chmod 755 cd.sh
 
 # Change directory to YOUR venv
 echo "Executing a bash command"
