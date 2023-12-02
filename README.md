@@ -18,5 +18,5 @@ user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
 
 Feel free to use, comment and play around with code!
 
-P.S. I could't find any sort of such software. So, I wanted to created one on my own. It is a skill trainig soft written fast. Still it works! 
+P.S. I could't find any sort of such software. So, I wanted to create one on my own. It is a skill trainig soft written fast. Still it works! 
 
