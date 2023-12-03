@@ -3,7 +3,7 @@ LINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUX
 Elegantly written venv-python alarm for 20-80% battery rule. It simply reminds you to plug-unplug the power cable to lengthten the battery life. The program starts at boot as you login into your user account..
 
 If any questions contact me:
-IG mosolov_scienc 
+IG mosolov_science
 E-mail mosolov.mikhail@internet.ru
 
 Steps to reproduce
