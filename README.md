@@ -10,7 +10,7 @@ Steps to reproduce
 4. Create/copy a bash script that will run the python file.
 5. Make it executable.
 6. Put aforementioned files in your venv folder (convinient step).
-7. Run the script with 'at' command or add 'at -f /path/to/your.sh now' line to your /home/YOUuser/.bashrc file to executing program after boot in the background.
+7. Run the script with 'at' command or add 'at -f /path/to/your.sh now' line to your /home/YOUuser/.bashrc file to executing program in the background right after boot.
  
 Enjoy! LOL
 
