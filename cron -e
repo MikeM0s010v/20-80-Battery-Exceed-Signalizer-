@@ -1,0 +1,1 @@
+@reboot cd /path/to/your/venv && source bin/activate && XDK_RUNTIME_DIR=/run/user/$(id -u) bin/python alarm.py
