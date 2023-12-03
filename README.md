@@ -2,18 +2,22 @@
 LINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUXLINUX
 Elegantly written venv-python alarm for 20-80% battery rule. It simply reminds you to plug-unplug the power cable to lengthten the battery life. The program starts at boot as you login into your user account..
 
-If any question contact me:
+If any questions contact me:
 IG mosolov_scienc 
 E-mail mosolov.mikhail@internet.ru
 
 Steps to reproduce
-1. Create venv folder.
+1. Create virtual enviroment within YOUR venv folder with shell command 'virtualenv venv' (check if it was installed with pip).
 2. Download wav-alarm-file that you like fron web.
 3. Create/copy a python file.
-4. Create/copy a bash script that will run the python file (if you prefer 'at' service).
-5. Make it executable.
+4. Optional (see 7). Create/copy a bash script that will run the python file (if you prefer 'at' service).
+5. Also optional. Make it executable.
 6. Put aforementioned files in your venv folder (convinient step).
-7 . Run the script with 'at' command or add 'at -f /path/to/your.sh now' line to your /home/YOUuser/.bashrc file to executing program in the background right after boot. If you use shell a lot it's better to implement cron  with new entry: crontab -e opens with vim, insert line '@reboot cd /path/to/your/venv/ && source bin/activate && XDG_RUNTIME_DIR=/run/user/$(id -u) bin/python alert.py
+
+Full or partian automation:
+7 . You are able to stop here and execute .py file whenever you want. 
+Full-automation: Run the script with 'at' command (semi_automation) or add 'at -f /path/to/your.sh now' line to your /home/YOUuser/.bashrc file to executing program in the background right after boot. 
+Full-automation invisible mode: implement cron  with new entry: crontab -e opens with vim, insert line '@reboot cd /path/to/your/venv/ && source bin/activate && XDG_RUNTIME_DIR=/run/user/$(id -u) bin/python alert.py
 
 Enjoy! 
 
