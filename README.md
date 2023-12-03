@@ -6,7 +6,7 @@ Steps to reproduce
 1. Create venv folder.
 2. Download wav-alarm-file that you like fron web.
 3. Create/copy a python file.
-4. Create/copy a bash script that will run the python file.
+4. Create/copy a bash script that will run the python file (if you prefer 'at' service).
 5. Make it executable.
 6. Put aforementioned files in your venv folder (convinient step).
 7 . Run the script with 'at' command or add 'at -f /path/to/your.sh now' line to your /home/YOUuser/.bashrc file to executing program in the background right after boot. If you use shell a lot it's better to implement cron  with new entry: crontab -e opens with vim, insert line '@reboot cd /path/to/your/venv/ && source bin/activate && XDG_RUNTIME_DIR=/run/user/$(id -u) bin/python alert.py
