@@ -9,8 +9,8 @@ Steps to reproduce
 3. Create/copy a python file.
 4. Create/copy a bash script that will run the python file.
 5. Make it executable.
-6. Put aforementioned files in your venv folder.
-7. Create a new 'at' entry or put 'at -f /path/to/your.sh now' in your .bashrc file to executing program after boot in the background.
+6. Put aforementioned files in your venv folder (convinient step).
+7. Run the script with 'at' command or add 'at -f /path/to/your.sh now' line to your /home/YOUuser/.bashrc file to executing program after boot in the background.
  
 Enjoy! LOL
 
@@ -21,7 +21,7 @@ CPU usage check:
 ps aux --sort=-%mem | grep -i '[p]ython'
 user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
 
-System requirements: Linux arch 6.6.3-arch1-1, python 3.11.6, at service running
+System requirements: Linux arch 6.6.3-arch1-1, python 3.11.6, 'at' service running
 
 ============================
 Feel free to use, comment and play around with code!
