@@ -7,12 +7,12 @@ IG mosolov_science
 E-mail mosolov.mikhail@internet.ru
 
 Steps to reproduce
-1. Create virtual enviroment within YOUR venv folder with shell command 'virtualenv venv' (check if it was installed with pip).
+1. Create virtual enviroment within YOUR venv folder with shell command 'virtualenv venv' (make sure if virualenv was previously installed with pip).
 2. Download wav-alarm-file that you like fron web.
 3. Create/copy a python file.
 4. Optional (see 7). Create/copy a bash script that will run the python file (if you prefer 'at' service).
 5. Also optional. Make it executable.
-6. Put aforementioned files in your venv folder (convinient step).
+6. Put aforementioned files in YOUR venv folder (convinient step).
 
 Full or partian automation:
 7 . You are able to stop here and execute .py file whenever you want. 
