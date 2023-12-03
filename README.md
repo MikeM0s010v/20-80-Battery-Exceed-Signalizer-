@@ -17,9 +17,6 @@ Steps to reproduce
 
 Enjoy! 
 
-
-There is some time lag in python power_plugged attribute status updating. Thus, some code refactoring and further sleeptime adjustments may be made, added or detalized.
-
 CPU-usage check:
 ps aux --sort=-%mem | grep -i '[p]ython'
 user 2300  0.0  0.0 256060 17720 pts/0    S+   04:21   0:00 python alert.py
