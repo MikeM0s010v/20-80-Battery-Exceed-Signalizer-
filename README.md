@@ -17,7 +17,7 @@ Steps to reproduce
 Full or partian automation:
 7 . You are able to stop here and execute .py file whenever you want. 
 Full-automation: Run the script with 'at' command (semi_automation) or add 'at -f /path/to/your.sh now' line to your /home/YOUuser/.bashrc file to executing program in the background right after boot. 
-Full-automation invisible mode: implement cron  with new entry: crontab -e opens with vim, insert line '@reboot cd /path/to/your/venv/ && source bin/activate && XDG_RUNTIME_DIR=/run/user/$(id -u) bin/python alert.py
+Full-automation invisible mode: implement cron  with new entry: crontab -e opens with vim, insert line '@reboot cd /path/to/your/venv/ && source bin/activate && XDG_RUNTIME_DIR=/run/user/$(id -u) bin/python alarm.py
 
 Enjoy! 
 
