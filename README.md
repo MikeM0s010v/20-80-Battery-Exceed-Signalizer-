@@ -11,6 +11,7 @@ Steps to reproduce
 5. Make it executable.
 6. Put aforementioned files in your venv folder.
 7. Create a new 'at' entry.
+8. Or put 'at /path/to/your.sh now' in your .bashrc file
  
 Enjoy! LOL
 
